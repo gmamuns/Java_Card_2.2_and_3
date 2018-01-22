@@ -1,0 +1,10 @@
+//Test script for Applet 'JavaCardExtendedApplet'
+
+powerup;
+// Select JavaCardExtendedApplet //aid/AE06D43C67/4D
+0x00 0xA4 0x04 0x00 0X06 0XAE 0X06 0XD4 0X3C 0X67 0X4E 0x7F;
+
+//Send the APDU here
+//0x80 0xCA 0x00 0x00 <length> <data> 0x7F;
+
+powerdown;
